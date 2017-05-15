@@ -34,7 +34,8 @@ module.exports = [
 
       // add needed material-ui components here
       'material-ui/styles/MuiThemeProvider',
-      'material-ui/styles/getMuiTheme'
+      'material-ui/styles/getMuiTheme',
+      'material-ui/RaisedButton'
     ],
     browserify: {
       exposes: '*' , externals: ['react', 'react-dom']
@@ -49,7 +50,8 @@ module.exports = [
       // add React Add-Ons, if this component needs them
       externals: ['react', 'react-dom', 'inject-css', 'react-style-prefix', 'inherits',
         'material-ui/styles/MuiThemeProvider',
-        'material-ui/styles/getMuiTheme'
+        'material-ui/styles/getMuiTheme',
+        'material-ui/RaisedButton'
       ]
     }
   }
